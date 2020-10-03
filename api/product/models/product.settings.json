@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SecondaryTitle": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "category": {
+      "model": "category",
+      "via": "products"
+    }
+  }
+}
