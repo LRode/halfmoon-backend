@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_categories",
+  "info": {
+    "name": "PostCategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "posts": {
+      "via": "post_category",
+      "collection": "posts"
+    }
+  }
+}
