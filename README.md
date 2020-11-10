@@ -23,4 +23,10 @@ npm install
 npm run strapi develop
 ```
 
+## Running Cloudinary
+
+```
+npm i strapi-provider-upload-cloudinary
+```
+
 
