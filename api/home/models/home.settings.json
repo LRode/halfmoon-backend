@@ -2,11 +2,13 @@
   "kind": "singleType",
   "collectionName": "homes",
   "info": {
-    "name": "Home"
+    "name": "Home",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "Headline": {
@@ -17,17 +19,6 @@
     },
     "ConsignmentDescription": {
       "type": "text"
-    },
-    "HeaderImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
     }
   }
 }
