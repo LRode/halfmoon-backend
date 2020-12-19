@@ -19,6 +19,9 @@
     },
     "ConsignmentDescription": {
       "type": "text"
+    },
+    "CovidAlert": {
+      "type": "text"
     }
   }
 }
