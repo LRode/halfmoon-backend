@@ -6,4 +6,5 @@ module.exports = ({ env }) => ({
       secret: env('ADMIN_JWT_SECRET', '9face1fd564f7decfab1199161015f79'),
     },
   },
+  url: 'https://api.animanga.me',
 });
